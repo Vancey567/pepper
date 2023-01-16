@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 
+import cart from "../../images/cart.png";
+import menu from "../../images/menu.png";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -34,7 +37,7 @@ const Navbar = () => {
         <div className="right-links">
           <Link to="/cart">
             <div className="cart">
-              <img src="../../images/cart.png" alt="cart" />
+              <img src={cart} alt="cart" />
               <span className="cartName">Cart</span>
             </div>
           </Link>
@@ -44,7 +47,7 @@ const Navbar = () => {
             <Button value="Get Started" color="#9D0AFF"/>
           </div>
           <div className="hamburger" onClick={() => setMenuOpen(!isMenuOpen)}>
-            <img src="../../images/menu.png" alt="menu" />
+            <img src={menu} alt="menu" />
           </div>
         </div>
       </div>

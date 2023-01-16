@@ -5,6 +5,9 @@ import "./FeatureCarousel.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import purple from '../../images/purple-div.png';
+import green from '../../images/green-div.png';
+
 import { features } from "../../Data/featuresCarousel";
 
 const FeatureCarousel = () => {
@@ -50,7 +53,7 @@ const FeatureCarousel = () => {
           .slice(currentIndex, currentIndex + 5)
           .map((feature, index) => (
             <div className="single-carousel" style={{ transform: `translateX(-${currentIndex * 100}%)`}}>
-                <div className=""><img src="../../images/purple-div.png" alt="purple" /></div>
+                <div className=""><img src={purple} alt="purple" /></div>
                 <div className="">{feature}</div>
             </div>
           ))}
@@ -69,7 +72,7 @@ const FeatureCarousel = () => {
           .slice(currentIndex, currentIndex + 5)
           .map((feature, index) => (
             <div className="single-carousel" style={{ transform: `translateX(-${currentIndex * 90}%)`}}>
-                <span className=""><img src="../../images/green-div.png" alt="purple" /></span>
+                <span className=""><img src={green} alt="green" /></span>
                 <span className="">{feature}</span>
             </div>
             
