@@ -1,0 +1,30 @@
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-description > h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+}
+
+.features-description {
+    height: 16rem;
+    width: 35rem;
+    text-align: center;
+}
+
+.features-description > p{
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
