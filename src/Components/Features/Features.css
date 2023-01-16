@@ -17,10 +17,6 @@
     text-align: center;
 }
 
-.features-description > p{
-
-}
-
 .cards {
     display: flex;
     justify-content: center;
@@ -28,3 +24,19 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 700px) {
+    .features-description {
+        height: 10rem;
+    }
+
+    .features-description > h1{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .features-description > p{
+        font-size: 12px;
+        
+    }
+}

@@ -21,3 +21,14 @@
     margin: 0 0 0 1rem;
 }
   
+@media screen and (max-width: 1050px) {
+    .focus {
+        padding: 2rem 2rem;
+        border-radius: 30px;
+    }
+
+    .focus-details {
+        color: #fff;
+        width: 16rem;
+    }
+}

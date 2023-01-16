@@ -82,3 +82,23 @@
   box-shadow: 1px 1px 80px rgba(21, 21, 49, 0.05);
   border-radius: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    display: block;
+    margin: 0;
+  }
+
+.read-more {
+    padding: 1.2rem;
+    text-align: left;
+}
+
+.read-more > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+}

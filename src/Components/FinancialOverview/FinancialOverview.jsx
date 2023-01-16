@@ -21,16 +21,16 @@ const FinancialOverview = () => {
             varius enim in eros elementum tristique.
           </p>
           <div className="financial-numbers">
-            <div className="widgets">
-              <span>120+</span>
-              <span>Useful widgets</span>
+            <div className="widgets financial-items">
+              <span className="number">120+</span>
+              <span className="financial-items">Useful widgets</span>
             </div>
-            <div className="integrations">
-              <span>20+</span>
+            <div className="integrations financial-items">
+              <span className="number">20+</span>
               <span>Integrations</span>
             </div>
-            <div className="features-out">
-              <span>65+</span>
+            <div className="features-out financial-items">
+              <span className="number">65+</span>
               <span>Features out</span>
             </div>
           </div>

@@ -82,6 +82,32 @@ li {
 }
 
 
+@media screen and (max-width: 768px) {
+  .footer-container {
+    display: block;
+    background-color: rgb(22, 0, 50);
+    height: 700px;
+    padding: 20px;
+  }
+
+  .template-pages {
+    margin: 0 20px;
+  }
+
+  .right-footer {
+    float: left;
+    text-align: left;
+  }
+
+  .pages > ul {
+    padding: 0;
+  }
+
+  .copyright {
+    left: 20px;
+  }
+}
+
 /* .right-footer li {
   float: left;
 }

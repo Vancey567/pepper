@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import './Button.css'
+import React, { useState } from "react";
+import "./Button.css";
 
-const Button = ({value, color}) => {
+const Button = ({ value, color }) => {
   const [btnColor, setColor] = useState(color);
   const [isHovered, setHovered] = useState(false);
 
@@ -22,15 +22,14 @@ const Button = ({value, color}) => {
   };
   return (
     <button
-    className={`btn-hover ${isHovered ? "hover-color" : ""}`}
-    style={{ backgroundColor: btnColor}}
-    onMouseEnter={handleMouseEnter}
-    onMouseLeave={handleMouseLeave}>
-{value}
-</button>
-  )
-}
+      className={`btn-hover ${isHovered ? "hover-color" : ""}`}
+      style={{ backgroundColor: btnColor }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      {value}
+    </button>
+  );
+};
 
-
-
-export default Button
+export default Button;
