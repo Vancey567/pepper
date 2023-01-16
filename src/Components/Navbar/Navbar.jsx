@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="right-links">
           <Link to="/cart">
             <div className="cart">
-              <img src="/images/cart.png" alt="cart" />
+              <img src="../../images/cart.png" alt="cart" />
               <span className="cartName">Cart</span>
             </div>
           </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <Button value="Get Started" color="#9D0AFF"/>
           </div>
           <div className="hamburger" onClick={() => setMenuOpen(!isMenuOpen)}>
-            <img src="/images/menu.png" alt="menu" />
+            <img src="../../images/menu.png" alt="menu" />
           </div>
         </div>
       </div>

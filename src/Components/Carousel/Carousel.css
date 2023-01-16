@@ -49,7 +49,6 @@
 }
 
 img {
-  /* width: 25%; */
   margin-right: 20px;
 }
 
@@ -64,7 +63,7 @@ img {
     height: 50px;
     top: 0;
   }
-  
+
   .shadow-div1 {
     right: -100px;
     width: 8rem;

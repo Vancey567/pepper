@@ -8,19 +8,19 @@ const Advantages = () => {
     <div className="advantages-container">
         <div className="advantage first-advantage">
             <div className="advantage-div">
-                <img src="/images/first-adv.png" alt="adv" />
+                <img src="../../images/first-adv.png" alt="adv" />
             </div>
             <Extra heading="Manage and Track Your Projects" color="purple" />
         </div>
         <div className="advantage second-advantage">
             <Extra heading="Easily manage your team's tasks" color="green" />
             <div className="advantage-div">
-                <img src="/images/second-adv.png" alt="adv" />
+                <img src="../../images/second-adv.png" alt="adv" />
             </div>
         </div>
         <div className="advantage third-advantage">
             <div className="advantage-div">
-                <img src="/images/third-adv.png" alt="adv" />
+                <img src="../../images/third-adv.png" alt="adv" />
             </div>
             <Extra heading="Simple financial overview for you" color="purple" />
         </div>
