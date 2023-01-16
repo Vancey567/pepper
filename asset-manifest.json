@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pepper/static/css/main.a54ffda7.css",
+    "main.js": "/pepper/static/js/main.75e6ac3a.js",
+    "index.html": "/pepper/index.html",
+    "main.a54ffda7.css.map": "/pepper/static/css/main.a54ffda7.css.map",
+    "main.75e6ac3a.js.map": "/pepper/static/js/main.75e6ac3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a54ffda7.css",
+    "static/js/main.75e6ac3a.js"
+  ]
+}
