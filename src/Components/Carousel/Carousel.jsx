@@ -1,7 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import "./Carousel.css";
 
-import { images } from "../../Data/companies";
+import img1 from '../../images/companyCarousal/company1.png'
+import img2 from '../../images/companyCarousal/company2.png'
+import img3 from '../../images/companyCarousal/company3.png'
+import img4 from '../../images/companyCarousal/company4.png'
+import img5 from '../../images/companyCarousal/company5.png'
+
+const images = [img1, img2, img3, img4, img5]
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

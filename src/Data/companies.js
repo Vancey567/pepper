@@ -1,10 +1,7 @@
 export const images = [
-    '../images/company-carousal/company 1.png',
-    '../images/company-carousal/company 2.png',
-    '../images/company-carousal/company 3.png',
-    '../images/company-carousal/company 4.png',
-    '../images/company-carousal/company 5.png',
-    // '../../images/company-carousal/company 3.png',
-    // '../../images/company-carousal/company 2.png',
-    // '../../images/company-carousal/company 4.png',
+  '../../images/companyCarousal/company1.png',
+  '../../images/companyCarousal/company2.png',
+  '../../images/companyCarousal/company3.png',
+  '../../images/companyCarousal/company4.png',
+  '../../images/companyCarousal/company5.png',
 ]
