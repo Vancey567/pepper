@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/pepper/static/css/main.a54ffda7.css",
-    "main.js": "/pepper/static/js/main.75e6ac3a.js",
+    "main.css": "/pepper/static/css/main.de180957.css",
+    "main.js": "/pepper/static/js/main.f4caef11.js",
+    "static/media/slick.svg": "/pepper/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pepper/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pepper/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pepper/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pepper/index.html",
-    "main.a54ffda7.css.map": "/pepper/static/css/main.a54ffda7.css.map",
-    "main.75e6ac3a.js.map": "/pepper/static/js/main.75e6ac3a.js.map"
+    "main.de180957.css.map": "/pepper/static/css/main.de180957.css.map",
+    "main.f4caef11.js.map": "/pepper/static/js/main.f4caef11.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54ffda7.css",
-    "static/js/main.75e6ac3a.js"
+    "static/css/main.de180957.css",
+    "static/js/main.f4caef11.js"
   ]
 }
