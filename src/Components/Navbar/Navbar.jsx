@@ -33,6 +33,9 @@ const Navbar = () => {
           <Link to="/contact">
             <div>Contact</div>
           </Link>
+          <Link to="/dashboard">
+            <div>Dashboard</div>
+          </Link>
         </div>
         <div className="right-links">
           <Link to="/cart">
