@@ -63,7 +63,7 @@ const AdminPanel = () => {
             <input
             className="heading-input"
             type="text"
-            placeholder="Write Your Heading here..."
+            placeholder="Write Your Heading here"
             onChange={(e) => handleChange(e.target.value)}
             value={heading}
             />
