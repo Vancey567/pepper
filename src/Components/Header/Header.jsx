@@ -42,7 +42,7 @@ const Header = () => {
     <div className="header-container">
         <div className="header-action-container">
           <div className="header-action">
-            <h1>{data?.heading}</h1>
+            <h1>Save more and get your finances right</h1>
             <p>Orci molestie nam vulputate nunc habitant gravida. Interdum vitae vivamus ipsum aliquet consectetur aliquam.</p>
             {/* <Button value="Request a demo" color="#8a04c7"/> */}
             <button className="demo-btn" onClick={(e) => handleClick(e)}>Request a demo</button>
